@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/r1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quarter" />
+
+        <RadioButton
+            android:id="@+id/r2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/half" />
+
+        <RadioButton
+            android:id="@+id/r4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/complete" />
+    </RadioGroup>
+	<View
+	    android:layout_marginTop="5dp" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="2dp"
+	    android:background="#000000"
+	    />
+    <LinearLayout
+        android:layout_marginTop="25dp" 
+        android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal" >
+		
+        <TextView
+            android:text="@string/east"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/east"
+            android:inputType="text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:minWidth="100dp"
+            />
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_marginTop="20dp" 
+        android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal" >
+		
+        <TextView
+            android:text="@string/south"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/south"
+            android:inputType="text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:minWidth="100dp"
+            />
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_marginTop="20dp" 
+        android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal" >
+		
+        <TextView
+            android:text="@string/west"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/west"
+            android:inputType="text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:minWidth="100dp"
+            />
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_marginTop="20dp" 
+        android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal" >
+		
+        <TextView
+            android:text="@string/north"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/north"
+            android:inputType="text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:minWidth="100dp"
+            />
+    </LinearLayout>
+	<LinearLayout 
+	    android:layout_marginTop="30dp" 
+        android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal" >
+        <Button
+            android:id="@+id/buttonOk"
+       		android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/mainButtonOk"/>
+    	<Button 
+    	    android:id="@+id/buttoncc"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/mainButtonCancel"/>
+    </LinearLayout>
+</LinearLayout>
